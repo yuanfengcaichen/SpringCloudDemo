@@ -146,12 +146,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610605848053</updated>
-      <workItem from="1610605852544" duration="21401000" />
+      <workItem from="1610605852544" duration="21783000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610610539725">
