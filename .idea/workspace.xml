@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d899026c-96a9-45b9-90f3-bd545ab97505" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d899026c-96a9-45b9-90f3-bd545ab97505" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +20,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Program Files\Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -44,8 +47,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目管理/project" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,30 +57,16 @@
       <recent name="E:\ImportantPlan\SpringClouddemo案例\springcloud_demo\product-view-service-feign\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config-server" />
+  <component name="RunManager" selected="Spring Boot.ProductServiceZuulApplication">
+    <configuration name="AccessViewService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.codeqi.test.AccessViewService" />
+      <module name="turbine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.codeqi.*" />
+          <option name="PATTERN" value="club.codeqi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="club.codeqi.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.codeqi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="club.codeqi.EurekaServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +85,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="turbine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.codeqi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="club.codeqi.ProductServiceTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.codeqi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="club.codeqi.ProductServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="product-view-service-feign" />
       <extension name="coverage">
         <pattern>
@@ -104,37 +120,25 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="club.codeqi.ProductViewServiceFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductViewServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="product-view-service-ribbon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.codeqi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="club.codeqi.ProductViewServiceRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Application.AccessViewService (1)" />
       <item itemvalue="Spring Boot.ProductDataServiceApplication" />
-      <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
       <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ProductServiceTurbineApplication" />
+      <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
+        <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
+        <item itemvalue="Application.AccessViewService (1)" />
         <item itemvalue="Spring Boot.ProductDataServiceApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
+        <item itemvalue="Spring Boot.ProductServiceTurbineApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +153,10 @@
       <option name="presentableId" value="Default" />
       <updated>1610605848053</updated>
       <workItem from="1610605852544" duration="22196000" />
+      <workItem from="1610779910292" duration="10401000" />
+      <workItem from="1610875170777" duration="1120000" />
+      <workItem from="1610886041066" duration="13000" />
+      <workItem from="1610887403457" duration="680000" />
     </task>
     <servers />
   </component>
@@ -160,60 +168,80 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610610539725">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610791386088">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610610539725" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610791386088" />
     <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1610679628956">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610679628956" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610696632705">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610785918895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610785918895" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610792215521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632705" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610696632705">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215521" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610792215520">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632705" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610696632705">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215520" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610792215520">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632705" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610696632705">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215520" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610792215521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632705" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1610696632706">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215521" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1610792215521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632706" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1610696632706">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215521" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1610792215521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632706" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1610696632706">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215521" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1610792215521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632706" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1610696632706">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215521" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1610792215521">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610696632706" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610792215521" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1610783177440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610783177440" />
     <state x="2539" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610609776367">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2539" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609776367" />
-    <state x="2254" y="214" key="new project wizard" timestamp="1610681590359">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="334" y="214" key="new project wizard" timestamp="1610791845723">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2254" y="214" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610681590359" />
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610791845723" />
   </component>
 </project>
